@@ -22,7 +22,7 @@ def load_data(input_url):
 
 
 # possible datasource urls
-friends_url = r'data\friends_ross_rachael_dataset_processed_sentiment.csv'
+friends_url = r'data/friends_ross_rachael_dataset_processed_sentiment.csv'
 
 # Load in
 loaded_data = load_data(friends_url)
