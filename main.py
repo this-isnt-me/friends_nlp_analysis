@@ -22,7 +22,7 @@ def load_data(input_url):
 
 
 # possible datasource urls
-friends_url = r'data\friends_ross_rachael_dataset_processed_sentiment.csv'
+friends_url = r'data/friends_ross_rachael_dataset_processed_sentiment.csv'
 
 # Load in
 loaded_data = load_data(friends_url)
@@ -36,8 +36,8 @@ st.write("---")
 st.markdown('###')
 
 # Sidebar Headers
-image_file_path = r'gallery\deepminer_logo.png'
-image_inv_file_path = r'gallery\deepminer_logo_inverse.png'
+image_file_path = r'gallery/deepminer_logo.png'
+image_inv_file_path = r'gallery/deepminer_logo_inverse.png'
 logo = Image.open(image_inv_file_path)
 st.sidebar.image(logo, width=250)
 st.sidebar.title("Dashboard Controls")
