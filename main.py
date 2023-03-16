@@ -36,8 +36,8 @@ st.write("---")
 st.markdown('###')
 
 # Sidebar Headers
-image_file_path = r'gallery\deepminer_logo.png'
-image_inv_file_path = r'gallery\deepminer_logo_inverse.png'
+image_file_path = r'gallery/deepminer_logo.png'
+image_inv_file_path = r'gallery/deepminer_logo_inverse.png'
 logo = Image.open(image_inv_file_path)
 st.sidebar.image(logo, width=250)
 st.sidebar.title("Dashboard Controls")
